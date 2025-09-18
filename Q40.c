@@ -9,11 +9,17 @@ int main() {
                 printf(" ");
             }  
             else{
-                printf("*");
-            }  
+                if (i==n|| i+j==n+1 ||j==n+i-1){
+                    printf("*"); 
+                } 
+                else {
+                    printf(" "); 
+                }
+            }
         }
         printf("\n");  
     }
 
     return 0;
 }
+
